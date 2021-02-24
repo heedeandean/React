@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Variable from './Variable';
+import SpreadOperator from './SpreadOperator';
 
 function App() {
   return (
     <div>
       <h1>Start React</h1>
       <p>css</p>
-      <Variable />
+      <SpreadOperator />
     </div>
   );
 }
