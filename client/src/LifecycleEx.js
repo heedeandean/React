@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LifecycleEx extends Component {
     static getDerivedStateFromProps(props, state) {
         console.log('2. getDerivedStateFromProps Call : ' + props.prop_value);
-        return {tmp_state:props.prop_value};
+        return { tmp_state: props.prop_value };
     }
 
     constructor(props) {
@@ -15,7 +15,7 @@ class LifecycleEx extends Component {
     componentDidMount() {
         console.log('4. componentDidMount Call');
         console.log('5. tmp_state : ' + this.state.tmp_state);
-        this.setState({tmp_state2 : true});
+        this.setState({ tmp_state2: true });
     }
 
     shouldComponentUpdate(props, state) {
