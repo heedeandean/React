@@ -5,7 +5,7 @@ class PropsDatatype extends Component {
 
     render() {
         let {
-            String, Number, Boolean, Array, ObjectJson, Funcnction
+            String, Number, Boolean, Array, ObjectJson, Function
         } = this.props
         return (
             <div style={{padding: "0px"}}>
@@ -27,7 +27,6 @@ PropsDatatype.propTypes = {
   , Array: datatype.array
   , ObjectJson: datatype.object
   , Function: datatype.func
-  ,
 }
 
 export default PropsDatatype;
