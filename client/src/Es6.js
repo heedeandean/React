@@ -26,7 +26,7 @@ class Es6 extends Component {
 
     render() {
         return (
-            <h2>[THIS IS ES6 STRING]</h2>
+            <h2>[THIS IS ES6 STRING.]</h2>
         )
     }
 }

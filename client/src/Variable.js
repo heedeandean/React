@@ -24,7 +24,7 @@ class Variable extends Component {
 
     render() {
         return (
-            <h2>[THIS IS Variable]</h2>
+            <h2>[THIS IS Variable.]</h2>
         )
     }
 }
