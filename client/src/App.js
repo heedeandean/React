@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
-import ReturnMap from './ReturnMap';
+import ReactstrapForm from './ReactstrapForm';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div>
       <h1>Start React</h1>
       <p>css</p>
-      <ReturnMap/>
+      <ReactstrapForm/>
     </div>
   );
 }
