@@ -7,7 +7,7 @@ class Sweetalert2Position extends Component {
         Swal.fire({
             position: positionflag,
             icon: "success",
-            title: flag + '됐습니다.',
+            title: flag + '됐습니다',
             showConfirmButton: false,
             timer: 1500
         })
