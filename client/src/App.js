@@ -1,13 +1,11 @@
 import React from 'react';
-import ReactstrapForm from './ReactstrapForm';
-import 'bootstrap/dist/css/bootstrap.css';
+import Sweetalert2Position from './Sweetalert2Position';
 
 function App() {
   return (
     <div>
       <h1>Start React</h1>
-      <p>css</p>
-      <ReactstrapForm/>
+      <Sweetalert2Position/>
     </div>
   );
 }
