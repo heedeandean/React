@@ -1,11 +1,11 @@
 import React from 'react';
-import Sweetalert2Position from './Sweetalert2Position';
+import ReactonSubmit from './ReactonSubmit';
 
 function App() {
   return (
     <div>
       <h1>Start React</h1>
-      <Sweetalert2Position/>
+      <ReactonSubmit/>
     </div>
   );
 }
